@@ -70,7 +70,7 @@ a:link, a:visited {
   text-align: center
 }
 
-h6 {
+.left-nav-middle h6 {
   display: none;
   position: absolute;
   text-align: center;
@@ -79,7 +79,7 @@ h6 {
 
 h5 {
   color: rgb(94, 90, 90);
-  font-size: 13px;
+  font-size: 15px;
 }
 
 /* MAIN CONTENT */
@@ -96,7 +96,7 @@ h5 {
   padding-left: 40px;
   color: antiquewhite;
   justify-content: flex-start;
-  font-size: 28px;
+  font-size: 34px;
   font-style: italic
 }
 
@@ -112,14 +112,13 @@ color: aquamarine;
   justify-content: center;
   align-items: center;
   color: aquamarine;
-  font-size: 200px;
+  font-size: 280px;
   text-shadow: 10px 10px rgb(230, 124, 124);
-  border-radius: 30%;
 }
 
 
 #contact-me {
-  color: aquamarine;
+  color: white;
   width: 150px;
   height: 40px;
   background: rgb(30, 30, 31);
