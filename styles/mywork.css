@@ -104,6 +104,7 @@ h5 {
   justify-content: space-around;
   height: 80%;
   border-radius: 10px;
+  padding: 20px
 }
 
 .work1 {
@@ -111,12 +112,20 @@ h5 {
   padding: 10px;
   display: flex;
   flex-direction: column;
-  border-radius: 10px;
+  
 }
 
 #work1-image {
   flex: 5;
   width: 100%;
+  border-radius: 10px;
+  box-shadow: 0px 1px 14px 5px rgba(49,82,77,1);
+  margin-bottom: 15px;
+  background: url(../assets/work2.png);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  opacity: 1;
 }
 
 .work1 h2 {
@@ -129,17 +138,25 @@ h5 {
   padding: 10px;
   display: flex;
   flex-direction: column;
-  border-radius: 10px;
+  
 }
 
 #work2-image {
   flex: 5;
   width: 100%;
+  border-radius: 10px;
+  box-shadow: 0px 1px 14px 5px rgba(49,82,77,1);
+  margin-bottom: 15px;
+  background: url(../assets/Pankaj.JPG);
+  background-position: center;
+  background-size: cover;
+  position: relative;
 }
 
 .work2 h2 {
   flex: 1;
   text-align: center;
+  
 }
 
 .work3 {
@@ -147,12 +164,19 @@ h5 {
   padding: 10px;
   display: flex;
   flex-direction: column;
-  border-radius: 10px;
+
 }
 
 #work3-image {
   flex: 5;
   width: 100%;
+  border-radius: 10px;
+  box-shadow: 0px 1px 14px 5px rgba(49,82,77,1);
+  margin-bottom: 15px;
+  background: url(../assets/programming.jpg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
 }
 
 .work3 h2 {
@@ -161,8 +185,46 @@ h5 {
 }
 
 
+.text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
 
-/* #work1-image:hover {
-  opacity: 0.8;
-  background: url(../assets/ruby.png)
-} */
+#work1-image:hover .overlay {
+  opacity: 1;
+  background: rgb(56, 55, 55);
+}
+
+#work2-image:hover .overlay {
+  opacity: 1;
+}
+
+#work3-image:hover .overlay {
+  opacity: 1;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: rgb(39, 40, 41);
+  border-radius: 10px;
+}
+
+
+#project {
+  width: 80px;
+  height: 80px;
+  padding: 10px;
+  background: rgb(95, 163, 18);
+  border-radius: 50%;
+}
