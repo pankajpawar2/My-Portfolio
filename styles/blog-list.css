@@ -84,7 +84,7 @@ h5 {
   background: rgb(45, 45, 46);
   flex: 15;
   display: grid;
-  grid-template-rows: 2fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1.6fr 1.6fr 1.6fr;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 20px;
   padding: 10px;
@@ -113,7 +113,7 @@ h5 {
 
 .blog4 {
   grid-column: 1/2;
-  grid-row: 3/4;
+  grid-row: 4/5;
   background: grey;
   border-radius: 10px;
 }
@@ -123,6 +123,13 @@ h5 {
   grid-row: 4/5;
   background: blueviolet;
   border-radius: 10px;
+}
+
+.blog-image {
+  grid-column: 2/3;
+  grid-row: 3/4;
+  border-radius: 10px;
+  background: grey
 }
 
 .blog1:hover {
