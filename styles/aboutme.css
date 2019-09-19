@@ -78,7 +78,7 @@ h6 {
 
 h5 {
   color: rgb(94, 90, 90);
-  font-size: 13px;
+  font-size: 15px;
 }
 
 /* MAIN CONTENT */
@@ -99,6 +99,7 @@ h5 {
   font-style: italic;
   border-radius: 20px;
 }
+
 
 .main-bottom-left h1:hover {
 color: aquamarine;
@@ -124,14 +125,19 @@ color: aquamarine;
   background: url(../assets/Pankaj.JPG);
   background-position: center;
   background-size: cover;
-  border-radius: 50%;
+  border-radius: 10%;
   width: 65%;
   height: 65%;
   position: relative;
   top: 120px;
   left: 100px;
-  opacity: 0.8;
+  opacity: 0.1;
 }
 
 /* ###################### */
 
+#p-style {
+  color: rgb(83, 221, 173);
+  margin-right: 3px;
+  text-shadow: 3px 3px rgb(231, 73, 73);
+}
