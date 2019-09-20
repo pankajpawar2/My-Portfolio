@@ -19,6 +19,10 @@
   font-size: 21.5px
 }
 
+.left-nav-top a:link{
+  text-decoration: none;
+}
+
 .left-nav-middle {
  flex: 3.5;
  display: flex;
