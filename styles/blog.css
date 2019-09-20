@@ -1,3 +1,4 @@
+@import "navbar.css";
 
 * {
   margin: 0px;
@@ -18,64 +19,10 @@ a:link, a:visited {
   overflow: scroll;
 }
 
-.left-navigation {
-  background: rgb(10, 10, 10);
-  flex: 1.22;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  color: rgb(151, 244, 214);
-  opacity: 0.8;
-}
-
 header {
   color: rgb(151, 244, 214);
   font-size: 24px;
   font-style: italic
-}
-/* ########################################################## */
- .left-nav-top {
-   flex: 1;
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-   padding-top: 5px
- }
-
- .left-nav-middle {
-  flex: 3.5;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-}
-
-.left-nav-bottom {
-  flex: 2.2;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly
-}
-
-.left-nav-middle  i {
-  position: relative;
-}
-
-.left-nav-middle i:hover h6{
-  display: block;
-  font-style: italic;
-}
-
-h6 {
-  display: none;
-  position: absolute;
-  text-align: center;
-  top: 10;
-}
-
-h5 {
-  color: rgb(94, 90, 90);
-  font-size: 15px;
 }
 
 /* MAIN CONTENT */
@@ -88,6 +35,7 @@ h5 {
   grid-template-rows: 1fr 1fr 1fr;
   grid-template-columns: 2.8fr 1fr 2.8fr;
   grid-gap: 20px;
+  order: 2;
   padding: 10px;
   color: white;
   /* overflow: scroll */
@@ -98,6 +46,7 @@ h5 {
   flex: 6;
   opacity: 1;
   display: flex;
+  order: 3;
   flex-direction: column;
   padding: 10px;
   color: rgb(245, 176, 86);
