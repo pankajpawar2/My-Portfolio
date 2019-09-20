@@ -33,7 +33,7 @@ a:link, a:visited {
 
 .main-content-top {
   height: 20%;
-  color: antiquewhite;
+  color: rgb(248, 171, 3);
   padding-top: 20px;
   padding-left: 20px;
   font-size: 22px;
@@ -50,7 +50,8 @@ a:link, a:visited {
   justify-content: space-around;
   height: 80%;
   border-radius: 10px;
-  padding: 20px
+  padding: 20px;
+  
 }
 
 .work1 {
