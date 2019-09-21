@@ -1,4 +1,4 @@
-![Sample](work2.png)
+![Sample](assets/blog1.jpg)
 
 # Portfolio Website
 
@@ -9,6 +9,7 @@
 ## Github Repository:[Github Repo](https://github.com/pankajpawar2/My-Portfolio)
 
 # Table of Contents
+
   * Purpose
   * Target audience
   * Functionality / features
@@ -35,7 +36,7 @@ The website is made up fo different components:
 
 The landing page, which is the home page of the website, has navigation bar on the left side. The navigation bar has links to different pages of the website. On the home page, there is a footer section at the bottom left, which has links to social media profiles as well as github.
 The main content is to the right of the navigation bar and it displays content specific to a page.
-This layout is consistent throught the website
+This layout is consistent throughout the website
 
 2. About Me
 
@@ -83,3 +84,11 @@ Below is visual representation of all the pages of my portfolio.
 5. Blogs Page
 
 6. Contact Me page
+
+## Tech Stack
+
+1. HTML
+
+2. CSS
+
+3. Netlify to deploy website
