@@ -4,7 +4,7 @@
 
 ## Pankaj Pawar | Full Stack Developer
 
-## Live Preview: [Portfolio Website](https://pankaj-pawar.netlify.com/)
+## Live Preview: [Portfolio Website](https://pankajpawar.netlify.com/)
 
 ## Github Repository: [Github Repo](https://github.com/pankajpawar2/My-Portfolio)
 
