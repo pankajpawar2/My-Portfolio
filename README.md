@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 ![Sample](assets/blog1.jpg)
+=======
+![Sample](docs/Landing.png)
+>>>>>>> master
 
 # Portfolio Website
 
@@ -6,7 +10,11 @@
 
 ## Live Preview: [Portfolio Website](https://pankaj-pawar.netlify.com/)
 
+<<<<<<< HEAD
 ## Github Repository:[Github Repo](https://github.com/pankajpawar2/My-Portfolio)
+=======
+## Github Repository: [Github Repo](https://github.com/pankajpawar2/My-Portfolio)
+>>>>>>> master
 
 # Table of Contents
 
@@ -30,7 +38,11 @@ This portfolio is mainly intended for recruiters to check my suitability for a w
 
 The main focus when creating this portfolio website was simplicity and ease-of-use.
 The navigation bar, main content and footer are designed in a way, that it gives consistent feel of the website.
+<<<<<<< HEAD
 The website is made up fo different components:
+=======
+The website is made up of different components:
+>>>>>>> master
 
 1. Landing Page/Home Page:
 
@@ -48,7 +60,11 @@ Skills page showcases various technical and non-technical skills i possess.
 
 4. My Work
 
+<<<<<<< HEAD
  This page displays differet projects i have worked and also a github link to view those projects in detail.
+=======
+ This page displays different projects i have worked and also a github link to view those projects in detail.
+>>>>>>> master
 
 5. Contact Me
 
@@ -63,7 +79,15 @@ This page has links to various blogs i have created. Each blog has an image and 
 
 Below is a sitemap for my portfolio website.
 
+<<<<<<< HEAD
 ![Sitemap](sitemap1.png)
+=======
+![Sitemap](docs/Sitemap1.png)
+
+## Wireframes
+
+![Wireframes for the portfolio](docs/Wireframes.png)
+>>>>>>> master
 
 ## Site Tour
 
@@ -71,6 +95,7 @@ Below is visual representation of all the pages of my portfolio.
 
 1. Landing Page:
 
+<<<<<<< HEAD
 ![Home Page](work2.png)
 
 2. About Me Page:
@@ -85,10 +110,55 @@ Below is visual representation of all the pages of my portfolio.
 
 6. Contact Me page
 
+=======
+![Home Page](docs/Landing.png)
+
+2. About Me Page:
+
+![About Me](docs/AboutMe.png)
+
+3. Skills Page
+
+![Skills](docs/Skills.png)
+
+4. My Work Page
+
+![My Work](docs/MyWork.png)
+
+5. Blogs Page
+
+![Blogs](docs/Blogs.png)
+
+6. Contact Me page
+
+![Contact Me](docs/ContactMe.png)
+
+>>>>>>> master
 ## Tech Stack
 
 1. HTML
 
 2. CSS
+<<<<<<< HEAD
+=======
+
+3. Netlify to deploy website
+
+4. Formspree
+
+Some useful links:
+
+[Google Fonts](https://fonts.google.com/)
+
+[Font Awesome](https://fontawesome.com)
+
+[Using Figma for creating Wireframes](https://www.figma.com/)
+
+[Background Images](https://unsplash.com/)
+
+
+
+
+>>>>>>> master
 
 3. Netlify to deploy website
