@@ -1,0 +1,200 @@
+@import "navbar.css";
+@import "button.css";
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap');
+
+* {
+  margin: 0px;
+  font-family: 'Roboto Slab', serif;
+  box-sizing: border-box;
+}
+
+a:link, a:visited {
+  color: rgb(151, 244, 214)
+}
+
+.flex-container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  background-image: url(../assets/sample7.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+
+.main-content {
+  background: rgb(45, 45, 46);
+  flex: 15;
+  order: 2;
+  opacity: 1;
+}
+
+/* MAIN CONTENT */
+
+.main-content-top {
+  height: 20%;
+  color: rgb(248, 171, 3);
+  padding-top: 20px;
+  padding-left: 20px;
+  font-size: 22px;
+  font-style: italic;
+}
+
+.main-content-top h1:hover{
+  color: aquamarine;
+}
+
+.main-content-bottom {
+  display: flex;
+  color: antiquewhite;
+  justify-content: space-around;
+  height: 80%;
+  border-radius: 10px;
+  padding: 20px;
+  
+}
+
+.work1 {
+  flex: 1;
+  padding: 0px 10px;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+#work1-image {
+  flex: 5;
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  background: url(../assets/footy.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  opacity: 1;
+}
+
+.work1 h2 {
+  flex: 1;
+  text-align: center;
+}
+
+.work2 {
+  flex: 1;
+  padding: 0px 10px;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+#work2-image {
+  flex: 5;
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  background: url(../assets/portfolio.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  
+}
+
+.work2 h2 {
+  flex: 1;
+  text-align: center;
+  
+}
+
+.work3 {
+  flex: 1;
+  padding: 0px 10px;
+  display: flex;
+  flex-direction: column;
+
+}
+
+#work3-image {
+  flex: 5;
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  background: url(../assets/programming.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.work3 h2 {
+  flex: 1;
+  text-align: center;
+}
+
+
+.text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+#work1-image:hover {
+  transform: scale(0.8)
+}
+
+#work2-image:hover {
+  transform: scale(0.8)
+}
+
+#work3-image:hover {
+  transform: scale(0.8)
+}
+
+#work1-image:hover .overlay {
+  opacity: 0.8;
+}
+
+#work2-image:hover .overlay {
+  opacity: 0.8;
+}
+
+#work3-image:hover .overlay {
+  opacity: 0.8;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: rgb(39, 40, 41);
+  border-radius: 10px;
+}
+
+#p-style {
+  color: rgb(83, 221, 173);
+  margin-right: 3px;
+  text-shadow: 3px 3px rgb(231, 73, 73);
+}
+
+@media only screen and (max-width: 1025px) {
+  .main-content-bottom {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 90%
+  }
+
+  .main-content-top {
+    height: 10%
+  }
+
+}
