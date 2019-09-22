@@ -1,4 +1,4 @@
-![Sample](docs/landing.png)
+![Sample](docs/Landing.png)
 
 # Portfolio Website
 
@@ -63,7 +63,7 @@ This page has links to various blogs i have created. Each blog has an image and 
 
 Below is a sitemap for my portfolio website.
 
-![Sitemap](docs/sitemap1.png)
+![Sitemap](docs/Sitemap1.png)
 
 ## Wireframes
 
@@ -75,7 +75,7 @@ Below is visual representation of all the pages of my portfolio.
 
 1. Landing Page:
 
-![Home Page](docs/landing.png)
+![Home Page](docs/Landing.png)
 
 2. About Me Page:
 
